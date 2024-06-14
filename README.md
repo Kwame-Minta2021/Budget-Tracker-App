@@ -42,4 +42,4 @@ To run the application locally:
    ```
 5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
-This setup enables easy local development and testing of the Orbtronics Budget-Tracker project, leveraging modern technologies for efficient financial management.
+
