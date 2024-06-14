@@ -1,4 +1,4 @@
-### Project Report: Budget-Tracker for Orbtronics
+### Project Report: Budget-Tracker for Internship
 
 #### Project Objectives
 The objective was to create an intuitive web application for efficient financial management. Key goals included developing a user-friendly dashboard, enabling CSV transaction imports, offering premium upgrades, and allowing user setting customization.
