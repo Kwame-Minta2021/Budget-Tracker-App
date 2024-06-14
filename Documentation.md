@@ -5,7 +5,7 @@ The objective was to create an intuitive web application for efficient financial
 
 #### Key Features
 - **Dashboard**: Provides an overview of financial activities with customizable chart types.
-- **CSV Transaction Import**: Facilitates easy transaction input via CSV files.
+- **CSV Transaction Import**: Facilitates easy input via CSV files.
 - **Premium Upgrade**: Enhances functionality for premium users.
 - **User Setting Customization**: Allows personalized user experiences.
 
