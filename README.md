@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### Project Report: Budget-Tracker for Orbtronics
 
-## Getting Started
+#### Project Objectives
+The objective was to create an intuitive web application for efficient financial management. Key goals included developing a user-friendly dashboard, enabling CSV transaction imports, offering premium upgrades, and allowing user setting customization.
 
-First, run the development server:
+#### Key Features
+- **Dashboard**: Provides an overview of financial activities with customizable chart types.
+- **CSV Transaction Import**: Facilitates easy transaction input via CSV files.
+- **Premium Upgrade**: Enhances functionality for premium users.
+- **User Setting Customization**: Allows personalized user experiences.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+#### Technology Stack
+- **Frontend**: Built with Next.js 14 and React for scalability and interactivity.
+- **Styling**: TailwindCSS and Shadcn UI for responsive and appealing design.
+- **Backend**: Hono.js for lightweight backend operations.
+- **Database**: PostgreSQL managed with Drizzle ORM for seamless data handling.
+- **Deployment**: Hosted on Vercel for reliability and scalability.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### Scope and Outcomes
+The project successfully delivered a functional budget-tracker meeting all objectives, ensuring a seamless user experience for financial management.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+#### Technical Difficulties and Mitigations
+Challenges included understanding imported modules and code implementation, resolved with documentation and community support. Database integration and deployment on Vercel were managed through thorough research and best practices.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+#### Decisions Made
+Next.js and React were chosen for their community support and scalability. TailwindCSS and Shadcn UI were selected for their ease of use and visual appeal. PostgreSQL with Drizzle ORM and Vercel for deployment ensured robust data management and reliable hosting.
 
-## Learn More
+#### Running the Application
+To run the application locally:
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Install dependencies with `npm install` or `yarn install`.
+4. Start the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   # or
+   bun dev
+   ```
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This setup enables easy local development and testing of the Orbtronics Budget-Tracker project, leveraging modern technologies for efficient financial management.
