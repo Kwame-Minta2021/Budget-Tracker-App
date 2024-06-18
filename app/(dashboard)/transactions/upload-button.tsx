@@ -1,7 +1,7 @@
 import { Upload } from "lucide-react";
 import { useCSVReader } from "react-papaparse";
 
-import { usePaywall } from "@/features/subscriptions/hooks/use-paywall";
+//import { usePaywall } from "@/features/subscriptions/hooks/use-paywall";
 
 import { Button } from "@/components/ui/button";
 
@@ -11,9 +11,10 @@ type Props = {
 
 export const UploadButton = ({ onUpload }: Props) => {
   const { CSVReader } = useCSVReader();
-  const { shouldBlock, triggerPaywall } = usePaywall();
-
-  if (shouldBlock) {
+ // const { shouldBlock, triggerPaywall } = usePaywall();
+//this is to help the easy testing of the upload section 
+//i have disabled the payment section for the upload part
+/*  if (shouldBlock) {
     return (
       <Button
         size="sm"
@@ -25,7 +26,7 @@ export const UploadButton = ({ onUpload }: Props) => {
       </Button>
     );
   }
-
+*/
   return (
     <CSVReader onUploadAccepted={onUpload}>
       {({ getRootProps }: any) => (
